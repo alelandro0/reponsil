@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+}
+.superior{
+    background: #1E172F;
+    display: flex;
+    justify-content: space-around;
+}
+a, button{
+    margin: 15px;
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+.blanco{
+    color: white;
+}
+button{
+    color: #fff;
+    height:40px;
+    border-radius: 4px;
+    border: none;
+    width: 120px;
+    background: linear-gradient(to right, #8540D5,60%,#1177D5);
+    
+}
+.medio{
+    display: flex;
+    justify-content: space-evenly;
+}
+.celu{
+width: 230px;
+height: 450px;
+
+}
+.izquierdo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    background: url("../img/hojasSecas.jpg");   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+.derecho{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #2E2550;
+    color: #fff;
+   
+}
+h1{
+    font-size: 80px;
+    width: 290px;
+}
+.uno{
+    width: 200px;
+    color: #F41486;
+    background: #fff;
+    margin: 4px;
+    
+}
+.dos{
+    background:#2E2550;
+    border: 2px solid white;
+    margin: 4px;
+}
+.container{
+    box-shadow: 0px 0px 2px 0px white;
+    border-radius: 3px  ;
+    margin-left: 30px;
+    display: flex;
+    
+}
+p{
+    width: 300px;
+    font-size: 20px;
+}
+.medio{
+    color: #F34EA3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F1F2F7;
+    width: 100%;
+  
+}
+.rosa{
+    width: 100%;
+    text-align: center;
+
+}
+.padreM{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F1F2F7;
+}
+.figura{
+    margin-top: 80px;
+    width: 330px;
+    height: 260px;
+}
+.izMedio{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+   
+}
+.dereMedio{
+    width: 50%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+h2{
+    margin-left: -115px;
+}
+.imagen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ h2{
+    color: #e6379d;
+    font-size: 37px;
+    margin-left: -20px;
+}
+h3{
+    margin-left: 10px;
+    color: #e6379d;
+}
+.arriba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.text{
+    width: 700px;
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+.text2{
+    margin-top: 40px;
+    width: 100%;
+   
+    text-align: center; 
+}
+.PadreCuatro{
+    background: #1E172F;
+    color: #F1F2F7;
+    display: flex;
+    flex-direction: column;
+    gap: 79px;
+
+}
+.inferior{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.cuadro{
+    width: 25%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.azul{
+    width: 180px;
+    background: #2E2550;
+}
+.rosado{
+    width: 180px;  
+    background: linear-gradient(to right, #EB64AA,50%,#F31888);
+}
+.rs{
+    color: #e6379d;
+    font-size: 25px;
+}
+h5{
+    font-size: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+span{
+    color: black;
+    font-size: 20px;
+    width: 50;
+}
+.union{
+    display: flex;
+    gap: 3px;
+    background: #F5f5f5;
+    width: 300px;
+    justify-content: center;
+}
+.col{
+    color: black;
+    font-size: 25px;
+}
+.estrella{
+    list-style-image: url('../img/estrella.png');
+    color: black;
+}
+.chulo{
+    color: black;
+    list-style-image: url('../img/chulo.png');
+}
+.eqiz{
+    color: black;
+    list-style-image: url('../img/equiz.png');
+}
+.ptres{
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
+.estrellar{
+    list-style-image: url("../img/estrellaR.png");
+    color: black;
+}
+.chulor{
+    list-style-image: url("../img/chuloR.png");
+    color: black;
+}
+footer{
+    background: #ffffff;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.h7{
+    color: #bcbcbc;
+    font-size: 25px; 
+}
+span{
+    font-size: 20px;
+    color:black;
+}
+.izfuter{
+    display: flex;
+  
+    align-items:center;
+    
+    width: 68%;
+    height: 100px;
+    
+}
+.derefuter{
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 14px;
+}
+.item{
+    
+    width: 30px;
+    height: 40px;
+}
+.machetazo{
+   
+    width: 30px;
+    height: 40px;
+}
+.roq{
+    color: #e6379d;
+}
+
+
+    @media (max-width: 998px) {
+        .superior {
+          flex-direction: column;
+          align-items: center;
+        }
+        .izquierdo {
+          width: 100%;
+          background-position: center;
+          height: auto;
+        }
+        .derecho {
+          width: 100%;
+          height: auto;
+        }
+        h1 {
+          font-size: 50px;
+          width: 70%;
+          text-align: center;
+          margin-top: 50px;
+        }
+        .padreM {
+          flex-direction: column;
+          align-items: center;
+        }
+        .izMedio {
+          width: 100%;
+          justify-content: center;
+          margin-bottom: 50px;
+        }
+        .dereMedio {
+          width: 100%;
+          align-items: center;
+          gap: 20px;
+          height: 340px;
+        }
+        .figura {
+          width: 80%;
+          height: auto;
+        }
+        h2 {
+          font-size: 25px;
+          margin-left: 0;
+          margin-top: 30px;
+        }
+        h3 {
+          font-size: 20px;
+          margin-top: 20px;
+        }
+        .inferior {
+          flex-direction: column;
+          gap: 50px;
+          align-items: center;
+        }
+        .cuadro {
+          width: 70%;
+        }
+        h5 {
+          font-size: 30px;
+        }
+        .ptres {
+          font-size: 16px;
+        }
+      }
+      @media (max-width: 768px) {
+        .superior {
+          flex-direction: column;
+          align-items: center;
+        }
+        .izquierdo {
+          width: 100%;
+          background-position: center;
+          height: auto;
+        }
+        .derecho {
+          width: 100%;
+          height: auto;
+        }
+        h1 {
+          font-size: 40px;
+          width: 80%;
+          text-align: center;
+          margin-top: 50px;
+        }
+        .padreM {
+          flex-direction: column;
+          align-items: center;
+        }
+        .izMedio {
+          width: 100%;
+          justify-content: center;
+          margin-bottom: 50px;
+        }
+        .dereMedio {
+          width: 100%;
+          align-items: center;
+          gap: 20px;
+          height: 360px;
+        }
+        .figura {
+          width: 80%;
+          height: auto;
+        }
+        h2 {
+          font-size: 25px;
+          margin-left: 0;
+          margin-top: 30px;
+        }
+        h3 {
+          font-size: 20px;
+          margin-top: 20px;
+        }
+        .inferior {
+          flex-direction: column;
+          gap: 50px;
+          align-items: center;
+        }
+        .cuadro {
+          width: 80%;
+        }
+        h5 {
+          font-size: 25px;
+        }
+        .ptres {
+          font-size: 16px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .superior {
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .izquierdo {
+          width: 50%;
+          background-position: right;
+          height: auto;
+        }
+        .derecho {
+          width: 50%;
+          height: auto;
+        }
+        h1 {
+          font-size: 70px;
+          width: 50%;
+          text-align: left;
+          margin-top: 0;
+        }
+        .padreM {
+          flex-direction: row;
+          align-items: flex-start;
+          justify-content: space-between;
+          margin-top: 100px;
+        }
+        .izMedio {
+          width: 50%;
+          justify-content: center;
+          margin-bottom: 0;
+        }
+        .dereMedio {
+          width: 50%;
+          align-items: flex-start;
+          gap: 40px;
+        }
+        .figura {
+          width: 100%;
+          height: auto;
+        }
+        h2 {
+          font-size: 40px;
+          margin-left: 50px;
+          margin-top: 0;
+        }
+        h3 {
+          font-size: 25px;
+          margin-top: 20px;
+        }
+        .inferior {
+          flex-direction: row;
+          gap: 40px;
+          margin-top: 150px;
+          
+        }
+        .cuadro {
+          width: 30%;
+        }
+        h5 {
+          font-size: 50px;
+        }
+        .ptres {
+          font-size: 18px;
+        }
+      }
+      @media (max-width: 480px) {
+        .superior {
+        flex-direction: column;
+        align-items: center;
+        }
+        .izquierdo {
+        width: 100%;
+        background-position: center;
+        height: auto;
+        }
+        .derecho {
+        width: 100%;
+        height: 500px;
+        }
+        h1 {
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+        margin-top: 40px;
+        }
+        .padreM {
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        .izMedio {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+        }
+        .dereMedio {
+        width: 100%;
+        align-items: center;
+        gap: 15px;
+        height: 360px;
+        }
+        .h7,.roq{
+            font-size: 15px;
+        }
+        .figura {
+        width: 90%;
+        height: auto;
+        }
+        h2 {
+        font-size: 20px;
+        margin-left: 0;
+        margin-top: 20px;
+        }
+        h3 {
+        font-size: 18px;
+        margin-top: 15px;
+        }
+        .inferior {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        }
+        .cuadro {
+        width: 90%;
+        }
+        h5 {
+        font-size: 20px;
+        }
+        .ptres {
+        font-size: 14px;
+        }
+        }
+      
+      
+      
+  

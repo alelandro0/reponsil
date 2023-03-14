@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(231, 229, 229) ;
+}
+.hijo{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    background: rgb(224, 222, 222);
+    padding: 15px;
+}

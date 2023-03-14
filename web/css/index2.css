@@ -1,0 +1,20 @@
+.padre{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+}
+.hijos{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 60px;
+    align-items: center;
+    background: rgb(221, 221, 221);
+    padding: 15px;
+}
+button{
+    border: none;
+    height: 25px;
+   
+}

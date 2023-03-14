@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.padre{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+}
+.hijoc{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(195, 195, 195);
+}
+button{
+    border: none;
+    color: white;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(182, 182, 182);
+  
+}
+.hijoi{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
